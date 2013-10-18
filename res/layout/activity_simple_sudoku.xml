@@ -1,0 +1,236 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginRight="10dip"
+    android:layout_marginLeft="10dip"
+    android:stretchColumns="*"
+    android:weightSum="5"
+     >
+
+    <TableRow android:background="#ccc"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:layout_weight="1"
+        >
+
+        <EditText
+            android:inputType="number"
+            android:background="#efefef"
+            android:textColor="#000"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+         <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+    </TableRow>
+    
+    <TableRow android:background="#ccc" 
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:layout_weight="1"
+        >
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+           />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip" 
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+         <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+    </TableRow>
+    
+    <TableRow android:background="#ccc" 
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:layout_weight="1"
+        >
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+           />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip" 
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+         <EditText
+             android:textColor="#000"
+             android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+    </TableRow>
+    
+    <TableRow android:background="#ccc" 
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip"
+        android:layout_weight="1"
+        >
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+           />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip" 
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+         <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+
+        <EditText
+            android:textColor="#000"
+            android:inputType="number"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="3dip"
+            
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            />
+    </TableRow>
+    
+    <TableRow
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_span="2"
+           	android:text="@string/hello_world" 
+             />
+    </TableRow>
+
+</TableLayout>

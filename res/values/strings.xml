@@ -3,6 +3,14 @@
 
     <string name="app_name">sudoku</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
+    <string name="hello_world">HKU Sudoku</string>
+    <string name="ruby_name">张宁奕</string>
+    <string name="ruby_id">123456789</string>
+    
+    <string name="button_level">Enter Level</string>
+    
+    <string name="title_activity_simple_sudoku">SimpleSudokuActivity</string>
+    <string name="title_activity_hard_sudoku">HardSudokuActivity</string>
 
 </resources>

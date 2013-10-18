@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="me.znyupup.sudoku.SimpleSudokuActivity"
+            android:label="@string/title_activity_simple_sudoku" >
+        </activity>
+        <activity
+            android:name="me.znyupup.sudoku.HardSudokuActivity"
+            android:label="@string/title_activity_hard_sudoku" >
+        </activity>
     </application>
 
 </manifest>
