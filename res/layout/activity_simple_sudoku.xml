@@ -16,7 +16,7 @@
 
         <EditText
             android:inputType="number"
-            android:background="#efefef"
+            android:background="#fff"
             android:textColor="#000"
             android:gravity="center"
             android:padding="3dip"
