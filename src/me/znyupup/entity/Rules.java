@@ -92,6 +92,7 @@ class CheckArray{
 	 * @param number
 	 */
 	void put(int number){
+		if(number == 0) return;
 		array[number-1] = true;
 	}
 	

@@ -3,6 +3,7 @@ package me.znyupup.sudoku;
 import me.znyupup.entity.Board;
 import me.znyupup.entity.Rules;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Menu;
@@ -30,6 +31,7 @@ public class SimpleSudokuActivity extends Activity {
 		resultView = (TextView)findViewById(R.id.result);
 		doTableLayout();
 		doValidateButton();
+		doBackButton();
 	}
 	
 	private void doTableLayout(){
@@ -51,7 +53,7 @@ public class SimpleSudokuActivity extends Activity {
 					TableRow tableRow = (TableRow)table.getChildAt(row);
 					for(int col=0;col<4;col++){
 						TextView tv = (TextView)tableRow.getChildAt(col);
-						int value = Integer.parseInt(tv.getText().toString());
+						int value = Integer.parseInt("0"+tv.getText().toString());
 						sudoku[row][col] = value;
 					}
 				}
@@ -65,6 +67,20 @@ public class SimpleSudokuActivity extends Activity {
 				}
 			}
 			
+		});
+	}
+	
+	private void doBackButton(){
+		Button b = (Button)findViewById(R.id.return_home);
+		b.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent();
+		        intent.setClass(SimpleSudokuActivity.this, MainActivity.class);
+	            startActivity(intent);
+			}
+				
 		});
 	}
 

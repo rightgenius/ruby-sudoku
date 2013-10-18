@@ -13,6 +13,7 @@
     <string name="title_activity_simple_sudoku">SimpleSudokuActivity</string>
     <string name="title_activity_hard_sudoku">HardSudokuActivity</string>
     
-    <string name="validate">validate</string>
+    <string name="validate">submit</string>
+    <string name="return_home">back</string>
 
 </resources>
