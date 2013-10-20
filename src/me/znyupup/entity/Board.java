@@ -84,10 +84,15 @@ public class Board {
 		
 		
 		//set random blank
+		//int[][] checkArray = new int[4][4];
 		for(int i=0;i<8;i++){
 			int row = ((int)(Math.random()*100))%4;
 			int col = ((int)(Math.random()*100))%4;
-			array[row][col] = 0;
+			if(array[row][col] == 0){
+				i--;
+			}else {
+				array[row][col] = 0;
+				}
 		}
 		
 		b.setNumbers(array);
